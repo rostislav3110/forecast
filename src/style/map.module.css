@@ -1,0 +1,38 @@
+.map_box {
+  width: 400px;
+  height: 510px;
+  border-radius: 16px;
+  background: rgba(27, 27, 29, 0.4);
+  background-image: url(../assets/ForecastMap.png);
+  padding: 10px;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+
+.explore_global_map {
+  background: gray;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.GET_STARTED_button {
+  padding: 20px 40px;
+  border: 0;
+  background: #d9d9d9;
+  border-radius: 15px;
+  width: 304px;
+  margin: 300px auto 0px auto;
+}
+
+a {
+font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-decoration: none;
+  color: black;
+}
+
+.GET_STARTED_button:hover {
+  background: #a8a5a5;
+  cursor: pointer;
+}
