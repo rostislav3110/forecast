@@ -8,9 +8,8 @@ import Otherdays from "./Otherdays";
 
 function Status() {
   return (
-    <div style={{display: "flex"}}>
-      {/* <h4>Today's Overview</h4> */}
-      <div style={{display:"flex", flexWrap: "wrap", gap: "10px"}}>
+    <div className="status" >
+      <div style={{display:"flex", justifyContent: "center", flexWrap: "wrap", gap: "10px"}}>
         <WindStatus />
         <UvIndex />
          <Humidity />

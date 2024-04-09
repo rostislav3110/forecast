@@ -11,7 +11,7 @@ function Otherdays() {
   };
 
   return (
-    <div style={{ marginRight: "20px" }}>
+    <div >
       <div className="citys">
         <ul style={{ listStyle: "none" }}>
           {forecastData?.map((item) => (

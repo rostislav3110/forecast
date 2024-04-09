@@ -27,7 +27,7 @@ function HourlyData() {
   };
 
   return (
-    <div>
+    <div style={{margin: "0 20px"}}>
       <form>
         <div className={localstyle.radio_group}>
           <input
@@ -51,18 +51,7 @@ function HourlyData() {
         </div>
       </form>
       <div
-        className={`${"current_container"}`}
-        style={{
-          height: "auto",
-          width: "41vw",
-          overflow: "auto",
-          display: "flex",
-          flexDirection: "column",
-          textAlign: "center",
-          scrollbarWidth: "thin",
-          scrollbarColor: "transparent transparent",
-          cursor: "pointer",
-        }}
+        className={`${localstyle.current_container}`}
       >
         <ul
           style={{

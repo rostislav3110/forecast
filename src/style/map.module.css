@@ -7,6 +7,7 @@
   padding: 10px;
   background-repeat: no-repeat;
   margin-right: 50px;
+  background-size: cover;
 }
 
 .explore_global_map {
@@ -35,4 +36,15 @@ font-size: 24px;
 .GET_STARTED_button:hover {
   background: #a8a5a5;
   cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+
+
+  .map_box {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 0;
+    margin-top: 20px;
+  }
 }

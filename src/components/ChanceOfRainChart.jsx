@@ -1,6 +1,7 @@
 import React from 'react';
-import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, PointElement, LineElement, Title, Tooltip, Filler, Legend } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, PointElement, LineElement, Title, Tooltip, Filler, Legend } from 'chart.js/auto';
 import { Chart } from 'react-chartjs-2';
+
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, PointElement, LineElement, Title, Tooltip, Filler, Legend);
 
@@ -105,7 +106,7 @@ export default function ChanceOfRainChart() {
   return (
     <div>
       <h4>Chance Of Rain</h4>
-      <div style={{ width: '326px', height: '215px' }}>
+      <div className='chart_container'>
       <Chart type="bar" options={options} data={data} />
     </div>
     </div>
