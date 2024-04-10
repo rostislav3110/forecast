@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/forecast/static/css/main.287bcd66.css",
-    "main.js": "/forecast/static/js/main.f381ab1f.js",
+    "main.js": "/forecast/static/js/main.cc6f447e.js",
     "static/media/ForecastMap.png": "/forecast/static/media/ForecastMap.42396b07f095cc875a9f.png",
     "static/media/photo_2024-03-30_03-24-22-removebg-preview.png": "/forecast/static/media/photo_2024-03-30_03-24-22-removebg-preview.7d71e6e55382b427714b.png",
     "index.html": "/forecast/index.html",
     "main.287bcd66.css.map": "/forecast/static/css/main.287bcd66.css.map",
-    "main.f381ab1f.js.map": "/forecast/static/js/main.f381ab1f.js.map"
+    "main.cc6f447e.js.map": "/forecast/static/js/main.cc6f447e.js.map"
   },
   "entrypoints": [
     "static/css/main.287bcd66.css",
-    "static/js/main.f381ab1f.js"
+    "static/js/main.cc6f447e.js"
   ]
 }
